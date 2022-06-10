@@ -26,9 +26,9 @@ const Home = () => {
                         <Link href={store.isDayStarted ? '/day' : '/start'}>
                             <Button className={'button'} size={'large'} variant="contained">{text}</Button>
                         </Link>
-                        {/*<Link href={'/history'}>*/}
-                            {/*<Button className={'button'} size={'large'} variant="contained">История</Button>*/}
-                        {/*</Link>*/}
+                        <Link href={'/history'}>
+                            <Button className={'button'} size={'large'} variant="contained">История</Button>
+                        </Link>
                     </div>
 
                 </div>
